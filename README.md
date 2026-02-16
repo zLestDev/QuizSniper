@@ -30,7 +30,7 @@ Antes de começar, você precisará:
 
 1. **Clone o repositório**:
    ```bash
-   git clone [https://github.com/zLestDev/QuizSniper.git](https://github.com/zLestDev/QuizSniper.git)
+   git clone https://github.com/zLestDev/QuizSniper.git
    cd ARQuizMaster
    ```
 
