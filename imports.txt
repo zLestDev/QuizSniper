@@ -1,0 +1,12 @@
+# 1. Entre na pasta do projeto (ajuste o caminho se necessário)
+cd C:\Users\SeuUser\Downloads\Quiz
+
+# 2. Crie o ambiente virtual (venv) se ainda não existir
+python -m venv venv
+
+# 3. Instale as bibliotecas essenciais diretamente no venv
+# Isso garante que o discord.py-self e o aiohttp funcionem juntos
+.\venv\Scripts\python.exe -m pip install --upgrade pip
+.\venv\Scripts\python.exe -m pip install discord.py-self aiohttp
+
+# 4. Inicia o bot com o ambiente virtual .\venv\Scripts\python.exe bot.py
